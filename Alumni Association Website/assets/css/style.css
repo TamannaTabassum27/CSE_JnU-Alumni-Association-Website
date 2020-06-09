@@ -1,0 +1,142 @@
+body{
+    font-family: 'Exo', sans-serif; 
+}
+img{
+	max-width: 100%;
+	height: auto;
+	padding: 5px;
+	margin-bottom: 5px;
+}
+
+.pagination {
+	text-align: center;
+}
+
+.mian{ display:inline-block; width:100%; position:relative; overflow:hidden; }
+.mian > div.menu{ width:17%; float:left; border-right:1px solid #ededed; min-height:100%; }
+.mian > div.menu .submenu p,.mian > .sidebar div.menu .submenu p{ height:40px; line-height:40px; text-align:center; background-color:#c30; font-size:16px; font-weight:600; }
+.mian > div.menu .submenu ul{ padding:0; margin:0; }
+.mian > div.menu .submenu li{ list-style:none; }
+.mian > div.menu .submenu p a,.mian > .sidebar div.menu .submenu p a{ color:#fff;}
+.mian > div.menu h3{ font-size:16px; font-weight: normal;}
+.mian > div.menu p{ color:#fff; }
+.mian > div.menu .item { display:none; }
+.mian > div.content{ width:61%; float:left; margin-left:1%; }
+.mian > div.content img{ max-width:100%; height:auto; }
+@media (min-width:768px){
+.mian > div.menu ul,.mian > div.menu .submenu{ display:block !important; }
+.mian > div.menu .half{ float:left; width:calc(50% - 1px);}
+}
+@media (max-width:768px){
+.mian > div.content{ margin-left:5px; }
+.mian > div.menu ul,.mian > div.menu .submenu{ display:none; }
+.mian > div.menu ul li,.mian > .sidebar div.menu ul li{ padding:5px 0;}
+.mian > div.menu h3{ display:block; background-color:#ededed; height40px; line-height:40px; text-indent:10px; cursor:pointer; font-size:16px; font-weight:normal; }
+.mian > div.menu p{ cursor:pointer; }
+.mian > div.menu .item{ float:right; clear:both; margin-bottom:23px; position:relative; top:16px; right:10px; display:inline-block; text-indent:0; }
+}
+
+
+
+#contact-us{
+    padding: 50px 0;    
+}
+
+.contact-top p{
+    margin: 20px 0;
+}
+.contact-top .social-icons a i{
+    color: #f31515;
+    margin-right: 15px;
+    font-size: 17px;
+}
+.contact-form {
+    margin-top: 50px;
+}
+.useremail, 
+.username, 
+.usermsg{
+    position: relative;
+}
+.useremail i.email-input{
+    position:absolute;
+    top: 30%;
+    left: 20px;
+    color: #363636;
+}
+.username i.name-input{
+    position:absolute;
+    float: right;
+    top: -31px;
+    left: 55%;
+    color: #363636;
+}
+.usermsg i.msg-input{
+    position:absolute;
+    float: right;
+    top: 36%;
+    left: 20px;
+    color: #363636;
+}
+.useremail input{
+    width: 48%;
+}
+.username input{
+    width: 48%;
+    float: right;
+    margin-top: -44px;
+    margin-bottom: 10px;
+}
+.usermsg textarea{
+    width: 100%;
+    margin-top: 20px;
+}
+.useremail input,
+.username input,
+.usermsg textarea{
+    padding: 10px 35px;
+    border: 2px solid #363636;
+    outline: none;
+    color: #363636;
+    font-weight: 600;
+    background: transparent;
+}
+.useremail input::-webkit-input-placeholder,
+.username input::-webkit-input-placeholder,
+.usermsg textarea::-webkit-input-placeholder {
+  color: #363636;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin:10px;
+}
+.submit-btn button i{
+    color: #f31515;
+    font-size: 30px;
+    position: absolute;
+    top: 29%;
+    left: 32%;
+}
+.submit-btn button{
+    position: relative;
+    background-color: #fff;
+    color: #d9534f;
+    font-size: 20px;
+    width: 370px;
+    height: 80px;
+    line-height: 80px;
+    border-radius: 10px;
+    margin-top: 77px;
+    border: 2px solid transparent;
+    transition: .3s;
+}
+.submit-btn button:hover,
+.submit-btn button:focus{
+    border: 2px solid #d9534f;
+    outline: none;
+}
+
+.social-icons a{
+    display: inline-block;
+    padding-right: 5px;
+    font-size: 16px;
+}
